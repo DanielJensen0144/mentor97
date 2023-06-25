@@ -2,6 +2,10 @@ body {
     color: white;
 }
 
+nav {
+    margin-bottom: 120px;
+}
+
 .section {
     display: flex;
     flex-direction: column;
@@ -20,4 +24,23 @@ body {
 
 .layer1 {
     background-image: url("./img/primary-layered-w-1.svg");
+}
+
+h1 {
+    font-size: 100px;
+}
+
+@media screen and (min-width: 992px) {
+    nav {
+        margin-bottom: 180px
+    }
+
+    h1 {
+        letter-spacing: 3px;
+    }
+}
+
+#sect2 {
+    height: 1200px;
+    background-color: #f6f9fc;
 }
